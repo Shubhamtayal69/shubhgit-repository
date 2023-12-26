@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "shubh-data-factory"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1LS_accountKey": {
+			"value": ""
+		},
+		"LS_for_shubhstorage01_connectionString": {
+			"value": ""
+		},
+		"SqlServerLS_connectionString": {
+			"value": "Integrated Security=False;Data Source=@{linkedService().servername};Initial Catalog=@{linkedService().DBname};User ID=@{linkedService().username};Password=@{linkedService().password}"
+		},
+		"linkedserviceforstorage_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1LS_properties_typeProperties_url": {
+			"value": "https://adlsstorage08.dfs.core.windows.net/"
+		}
+	}
+}
