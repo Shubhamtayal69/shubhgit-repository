@@ -1,0 +1,9 @@
+{
+	"name": "shubh-data-factory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9a33df52-fa81-4d22-864c-11a25deea821",
+		"tenantId": "43d78ccf-e905-4b33-9de8-aebdccaa7c0f"
+	}
+}
