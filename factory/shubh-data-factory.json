@@ -2,7 +2,7 @@
 	"name": "shubh-data-factory",
 	"properties": {
 		"globalConfigurations": {
-			"PipelineBillingEnabled": "true"
+			"PipelineBillingEnabled": "false"
 		}
 	},
 	"location": "eastus",
